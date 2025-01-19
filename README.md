@@ -39,8 +39,8 @@ This project focuses on developing a robust model for classifying Electroencepha
 
 ### 4. **Advanced Model**  
 - Enhanced feature extraction methods  
-- Deep learning implementation  
-- Model parameter optimization  
+- Deep learning implementation. A convolutional neural network was implemented using Conv1D layers. The EEG signals were fed to the network directly. An accuracy of ~95% was achieved  
+- XGBoost model - An XGBoost model was implemented on extracted features, achieving an accuracy of ~97%. 
 - Performance evaluation on validation and test sets  
 
 ---
